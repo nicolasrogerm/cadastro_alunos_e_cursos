@@ -4,18 +4,17 @@ public class Matricula {
 	
 	private int ano;
 	private int semestre;
-	private Aluno aluno;
-	private Curso curso;
+	private String aluno ;
+	private String curso;
 	
 	
-	public Matricula(int ano, int semestre, Aluno aluno, Curso curso) {
+	public Matricula(int ano, int semestre, String aluno, String curso) {
 		super();
 		this.ano = ano;
 		this.semestre = semestre;
 		this.aluno = aluno;
 		this.curso = curso;
 	}
-
 
 	public int getAno() {
 		return ano;
@@ -37,12 +36,12 @@ public class Matricula {
 	}
 
 
-	public Aluno getAluno() {
+	public String getAluno() {
 		return aluno;
 	}
 
 
-	public void setAluno(Aluno aluno) {
+	public void setAluno(String aluno) {
 		this.aluno = aluno;
 	}
 
@@ -52,7 +51,7 @@ public class Matricula {
 	}
 
 
-	public void setCurso(Curso curso) {
+	public void setCurso(String curso) {
 		this.curso = curso;
 	}
 	
