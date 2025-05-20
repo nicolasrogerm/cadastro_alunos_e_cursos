@@ -11,9 +11,7 @@ public class Main {
 		Curso curso2 = new Curso("ADM", "94415", 400);
 		
 		Matricula matricula1 = new Matricula(2024, 2, aluno1.getNome(), curso1.getNome());
-<<<<<<< HEAD
 		Matricula matricula2 = new Matricula(2025, 1, aluno2.getNome(), curso2.getNome());
-		
 		
 		aluno1.exibirInformacoesAluno1(aluno1);
 		aluno2.exibirInformacoesAluno1(aluno2);
@@ -23,9 +21,5 @@ public class Main {
 		
 		matricula1.exibirInformacoesDaMatricula(aluno1, curso1, matricula1);
 		matricula2.exibirInformacoesDaMatricula(aluno2, curso2, matricula2);
-=======
-				
->>>>>>> main
 	}
-
 }
