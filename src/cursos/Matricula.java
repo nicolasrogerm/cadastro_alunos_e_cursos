@@ -56,6 +56,14 @@ public class Matricula {
 		this.curso = curso;
 	}
 	
+	public void exibirInformacoesDaMatricula1(Aluno aluno1, Curso curso1, Matricula matricula1) {
+		System.out.println("Nome do Aluno(a): " + aluno1.getNome());
+		System.out.println("Nome do curso: " + curso1.getNome());
+		System.out.println("Carga horária total: " + curso1.getCargaHoraria());
+		System.out.println("Ano: " + matricula1.getAno());
+		System.out.println("Semestre: " + matricula1.getSemestre());
+	}
+	
 	
 }
 

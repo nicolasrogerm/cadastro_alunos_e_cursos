@@ -36,5 +36,19 @@ public class Curso {
 	public void setCodigo (int cargaHoraria) {
 		this.cargaHoraria = cargaHoraria;
 	}
+	
+	public void exibirInformacoesCurso1(Curso curso1) {
+		System.out.println("Nome do curso: " + curso1.getNome());
+		System.out.println("Código do curso: " + curso1.getCodigo());
+		System.out.println("Carga horária total: " + curso1.getCargaHoraria());
+		System.out.println();
+	}
+	
+	public void exibirInformacoesCurso2(Curso curso2) {
+		System.out.println("Nome do curso: " + curso2.getNome());
+		System.out.println("Código do curso: " + curso2.getCodigo());
+		System.out.println("Carga horária total: " + curso2.getCargaHoraria());
+		System.out.println();
+	}
 
 }
