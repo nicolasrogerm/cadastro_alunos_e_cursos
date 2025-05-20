@@ -14,9 +14,9 @@ public class Main {
 		Matricula matricula2 = new Matricula(2025, 1, aluno2.getNome(), curso2.getNome());
 		
 		aluno1.exibirInformacoesAluno1(aluno1);
-		aluno2.exibirInformacoesAluno1(aluno2);
-		
 		curso1.exibirInformacoesCurso1(curso1);
+		
+		aluno2.exibirInformacoesAluno1(aluno2);
 		curso2.exibirInformacoesCurso2(curso2);
 		
 		matricula1.exibirInformacoesDaMatricula(aluno1, curso1, matricula1);
