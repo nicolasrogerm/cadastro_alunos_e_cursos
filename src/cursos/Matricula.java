@@ -46,7 +46,7 @@ public class Matricula {
 	}
 
 
-	public Curso getCurso() {
+	public String getCurso() {
 		return curso;
 	}
 
